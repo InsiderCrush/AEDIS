@@ -30,8 +30,8 @@ This file is the entry point for LLMs into the project. The structure is fixed: 
 
 Route by entry circumstance (if the circumstance is not listed — STOP, the gate is undefined, do not guess):
 
-1. Trigger `QQQQQ` fired in AI Studio → you are Gemini. Entry sequence: read `./aedis/governance/charter-project.md` first, then `./aedis/agents/state/state-gemini.md`.
-2. The operator gave you the repository / told you to read the README → you are Kimi. Entry sequence: read `./aedis/governance/charter-project.md` first, then `./aedis/agents/state/state-kimi.md`.
+1. Trigger `QQQQQ` fired in AI Studio → you are Gemini. Entry sequence: read `./aedis/governance/charter-aedis.md` first, then `./aedis/agents/state/state-gemini.md`.
+2. The operator gave you the repository / told you to read the README → you are Kimi. Entry sequence: read `./aedis/governance/charter-aedis.md` first, then `./aedis/agents/state/state-kimi.md`.
 
 ## LICENSES
 
