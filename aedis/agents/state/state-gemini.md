@@ -43,24 +43,29 @@ Proactive Protocol Expansion (Scaffolding Accumulation):
 **Vector [2026-10-11, Режим отладки и развертывания нового репозитория]:**
 - Бережно переносим старые наработки из архива (shadow-bootstrap) и закладываем новое видение в новый репозиторий.
 - Прокладываем входные гейты для LLM и разделяем структуру (ядро AEDIS, контур протоколов, память стейтов, контур наставника).
-- Уточняем и описываем глобальные концептуальные вопросы (борьба с катастрофой вайб-кодинга, детерминированные инварианты).
+- Статус репозитория: Day 1 нового развертывания. Инструменты и наработки отлажены за предыдущий месяц работы и вводятся в репозиторий контролируемо, не засоряя GitHub sync.
+- Фиксация урока ревизии: строгий запрет на уход в метафоры и субъективизм. Обязателен возврат к точному техническому языку стандартов (ISO/IEC/IEEE 29148, ISO/IEC/IEEE 15288).
+- Топология выровнена: канонические имена charter-aedis.md, conops-aedis.md, protocol-state.md зафиксированы. Устаревшие ссылки на манифесты удалены.
+- Директория ./ost/ защищена как неизменяемое хранилище криптографических доказательств OpenTimestamps.
 - Никуда не торопимся, идем строго в режиме отладки и стабилизации нового репозитория.
 
 ### JIT PRELOAD MANIFEST FOR CLEAN SESSION (Trigger QQQQQ)
-1. Read `./README.md` (Root router and entry circumstances).
-2. Read `./aedis/governance/charter-aedis.md` (Constitutional Invariants).
-3. Read `./aedis/agents/state/state-gemini.md` (Self Memory Board & Operative State).
+1. Read ./README.md (Root router and entry circumstances).
+2. Read ./aedis/governance/charter-aedis.md (Constitutional Invariants).
+3. Read ./aedis/agents/state/state-gemini.md (Self Memory Board & Operative State).
 Execution Directive: Do NOT crawl other repository files. Operate strictly upon explicit Operator directives.
 
 ## BLOCK 3 — SOVEREIGN ZONE
 
 ### S1 ONTOLOGICAL ANCHOR
 - Physical Truth: Live Google AI Studio workspace contains ground truth. Downstream git projection is a reflection.
-- Anti-Vibecoding: Standards ISO/IEC/IEEE 12207, 15288, 29148, 29119, 25010 and `./aedis/governance/charter-aedis.md` form the immutable requirements harness.
+- Anti-Vibecoding: Standards ISO/IEC/IEEE 12207, 15288, 29148, 29119, 25010 and ./aedis/governance/charter-aedis.md form the immutable requirements harness.
+- Technical Rigor & Anti-Metaphor Law: Suppress emotional prose and conversational metaphors. All technical analysis, specifications, and audit reports shall use formal systems engineering terminology exclusively.
+- Cryptographic Proof Vault (OST Invariant): Directory ./ost/ contains immutable OpenTimestamps blockchain commitments; modifying any byte inside ./ost/ permanently destroys proof verification and is strictly forbidden (Exit Code 1).
 - Minimal Completeness: System optimum is |S| = argmin { |S| : D_P(S) = 0 }. Fixed corpus acts as the immutable Trust Anchor; linters act as the hardware sensor enforcing D = 0 over decidable properties and test cases.
 - Anti-Entropy & Lifecycle: Specifications support full two-way FSM (Draft, Proposed, Ratified, Sealed, Deprecated, Superseded, Revoked, Tombstone). ID immortality is absolute.
 - Normative Rigor: Enforce formal ISO/IEC/IEEE 29148 requirement qualities and ISO/IEC/IEEE 29119 closed-loop verification; strictly reject non-conforming, ambiguous, or unverified assertions.
-- Fabrication Ban: Translate and edit only verbatim fragments from live source files; never add unratified sections. Anchors copied strictly from live raw files; angle brackets inside embedded texts emitted as `chr(60)` and `chr(62)`.
+- Fabrication Ban: Translate and edit only verbatim fragments from live source files; never add unratified sections. Anchors copied strictly from live raw files; angle brackets inside embedded texts emitted as chr(60) and chr(62).
 - Markdown Transport Hygiene: Fenced code blocks with triple backticks collide across web interfaces and clipboard buffers; maintain flat text boundaries without fenced backticks in transport.
 
 ### S2 RUNTIME PARSER & AST INVARIANTS (2026-10-08 Empirical Grounding)

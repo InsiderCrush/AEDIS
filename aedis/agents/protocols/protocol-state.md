@@ -14,13 +14,12 @@ chain: genesis
 ## §P0-TOPOLOGY: Workspace Topology & File Index
 (meta: authoritative file address registry | eliminates speculative workspace search | project tree)
 
-- Entry Gate: `./README.md` (root router, licensing, contour dispatch).
-- Project Constitution: `./aedis/governance/charter-project.md` (goals, minimal functionally complete basis, dependency law).
-- Shared Agent Protocol: `./aedis/agents/state/protocol-state.md` (system operational rulebook).
-- Gemini Contour Memory: `./aedis/agents/state/state-gemini.md` (live workspace executor state).
-- Kimi Contour Memory: `./aedis/agents/state/state-kimi.md` (GitHub auditor and task author state).
-- Temporary Scaffolding: `./aedis/manifest-aedis.md`, `./aedis/agents/manifest-agents.md`, `./aedis/agents/state/manifest-state.md`, `./meta/manifest-meta.md`.
-- Contour Isolation Law: Gemini shall never read `state-kimi.md`. Kimi shall never read `state-gemini.md`.
+- Entry Gate: ./README.md (root router, licensing, contour dispatch).
+- Project Constitution: ./aedis/governance/charter-aedis.md (goals, minimal functionally complete basis, dependency law).
+- Shared Agent Protocol: ./aedis/agents/protocols/protocol-state.md (system operational rulebook).
+- Gemini Contour Memory: ./aedis/agents/state/state-gemini.md (live workspace executor state).
+- Kimi Contour Memory: ./aedis/agents/state/state-kimi.md (GitHub auditor and task author state).
+- Contour Isolation Law: Gemini shall never read state-kimi.md. Kimi shall never read state-gemini.md.
 
 ## §P1-TASK-T1: Task Execution Protocol (Conveyor T1)
 (meta: executable conveyor format from Kimi to Gemini. Verbatim execution with zero deviation.)
@@ -30,10 +29,10 @@ chain: genesis
 - Template T1 mandatory structure:
 
 TEMPLATE_T1_START
-TASK | SCOPE-LOCK: mutate only [files]
+TASK | SCOPE-LOCK: mutate only [workspace-relative paths, resolved by the authoring agent from the pinned commit tree]
 STEP 1. In file [path], replace:
-  OLD: [verbatim fragment from the live raw file]
-  NEW: [verbatim new text]
+OLD: [verbatim fragment from the live raw file]
+NEW: [verbatim new text]
 STEP N. VERIFY: [verification command, grep check, or tool target]
 RULES: do not analyze, do not improve, do not touch files outside the scope-lock. Anchors are copied from the live raw file only. Paths in task texts are workspace-relative with the ./ prefix. Angle brackets inside embedded texts are emitted as chr(60) and chr(62) constructs.
 REPORT (one line): [task subject] | [files] | [verification verdict]
