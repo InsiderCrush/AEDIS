@@ -142,3 +142,5 @@ TEMPLATE_T2_END
 - Operator phrasing is intent, not literal text: extract the essence, express it in standard English commit idiom. Word-for-word translation of the Operator's Russian wording is a defect.
 - Uncertainty: search real-world commit examples first. Do not improvise variant lists, do not present A/B menus, do not ask style questions.
 - Delivery: one message line, nothing else, unless the Operator asks for alternatives.
+- Derivation: the message is a compression of the sync's approved work statement (T1 TASK subject or Operator directive). Never compose a fresh description at sync time.
+- Coverage: before delivery, verify the message spans every file in the sync; a message fitting a proper subset of the diff is a defect.
