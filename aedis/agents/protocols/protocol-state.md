@@ -14,7 +14,8 @@ chain: genesis
 ## §P0-TOPOLOGY: Workspace Topology & File Index
 (meta: authoritative file address registry | eliminates speculative workspace search | project tree)
 
-- Entry Gate: ./README.md (root router, licensing, contour dispatch).
+- Entry Gate: ./README.md (root router, licensing pointer, contour dispatch).
+- Licensing Policy: ./LICENSING.md (repository licensing table, deployment scope).
 - Project Constitution: ./aedis/governance/charter-aedis.md (goals, minimal functionally complete basis, dependency law).
 - Shared Agent Protocol: ./aedis/agents/protocols/protocol-state.md (system operational rulebook).
 - Gemini Contour Memory: ./aedis/agents/state/state-gemini.md (live workspace executor state).
