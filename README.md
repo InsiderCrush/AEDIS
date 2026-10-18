@@ -35,9 +35,4 @@ Route by entry circumstance (if the circumstance is not listed — STOP, the gat
 
 ## LICENSES
 
-| Component | License | Notes |
-|---|---|---|
-| Text: standard, corpus, methods, meta, reports, gates (all textual content) | CC-BY-4.0 | Free for any use, including commercial, with attribution to InsiderCrush. |
-| Code: compiler, linters, drift verifiers, tests, tomls, configs (all machine artifacts) | PolyForm-Noncommercial-1.0.0 | Free for non-commercial use; commercial use requires a written agreement with the operator (purchase). |
-| Project name and trademarks | Reserved | Reserved by InsiderCrush. Permitted for compatibility naming (e.g. "for AEDIS"), not for claiming endorsement. |
-| src/ and platform files | Not licensed by the operator | Included in this repository by project synchronization with Google AI Studio; the Operator cannot exclude these files. This is not the Operator's code: no rights are asserted and no responsibility is taken. These files are governed by the terms of the generating platform. |
+Code: PolyForm-Noncommercial-1.0.0 (see ./LICENSE). Text: CC-BY-4.0 (see ./LICENSE.docs). Full component table: ./LICENSING.md.
