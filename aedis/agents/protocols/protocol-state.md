@@ -132,3 +132,12 @@ TEMPLATE_T2_END
    2. Structural Proposal: Present a fully formed, concrete design solution with clear operational examples.
    3. Iterative Refinement: Debate and tune mechanics collaboratively until the Operator confirms clarity and satisfaction.
    4. Formal Crystallization: Upon Operator validation, translate the agreed concept into formal ISO/IEC/IEEE 29148 requirements and Stage artifacts ready for standard conveyor execution.
+
+## §P9-SYNC-COMMENTS: Sync Commit Message Discipline
+(meta: one-line commit convention | prevents verbosity drift, mechanism narration, and option-menu bureaucracy | applies to commit messages drafted by agent contours)
+
+- Format: type(scope): short lowercase imperative, no trailing period. Match live repo history: docs(governance), docs(meta), docs(state), docs(adr), docs(license), feat(governance). Reuse an existing scope; invent a new one only when no scope fits.
+- Content: name the work as a whole in a few words. Do not enumerate files, do not narrate the mechanism; "relocate X from Y to Z" is bloat.
+- Operator phrasing is intent, not literal text: extract the essence, express it in standard English commit idiom. Word-for-word translation of the Operator's Russian wording is a defect.
+- Uncertainty: search real-world commit examples first. Do not improvise variant lists, do not present A/B menus, do not ask style questions.
+- Delivery: one message line, nothing else, unless the Operator asks for alternatives.

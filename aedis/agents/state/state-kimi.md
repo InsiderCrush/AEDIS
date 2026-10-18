@@ -40,6 +40,7 @@ Proactive Protocol Expansion (Scaffolding Accumulation):
 | Anchor mismatch, sync drift detection, operator seal | `./aedis/agents/protocols/protocol-state.md#§P6-FAILSAFE` |
 | Harness diagnostics, debug opcode trigger | `./aedis/agents/protocols/protocol-state.md#§P7-DEBUG` |
 | Collaborative brainstorming, concept design | `./aedis/agents/protocols/protocol-state.md#§P8-CO-ARCHITECT` |
+| Commit message for repo sync | `./aedis/agents/protocols/protocol-state.md#§P9-SYNC-COMMENTS` |
 
 Block 2 (Volatile — Current Vector):
 Активный вектор 2026-10-12 (вечер): интейк-конвейер развёрнут и прошёл полную внешнюю ревизию. Файл ./aedis/governance/idea-intake.md в согласованном состоянии: R0–R14, четыре флага, скоуп, ОЖИДАЕТ-граф, РАСХОЖДЕНИЕ, РАЗДЕЛЕНИЕ, R14 (изменение метода), FILE_MUTATION: OPERATOR_ONLY. Блоки А/Б/В рецензии внедрены серией синков, все верифицированы аудитором по истории коммитов. Счётчик дрейфа чистый, записей нет. Следующий шаг: регистрация новых записей Оператора либо закрытие TASK-001…TASK-006 (папочная система, FSM-реестр, FILE_MUTATION+SPDX на все файлы, термины в глоссарий, EARS-перевод R0–R14, машинная валидация профилем). Отклонения DEV-001…DEV-003 живы до релиза шаблона.
