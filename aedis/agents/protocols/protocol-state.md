@@ -144,3 +144,15 @@ TEMPLATE_T2_END
 - Delivery: one message line, nothing else, unless the Operator asks for alternatives.
 - Derivation: the message is a compression of the sync's approved work statement (T1 TASK subject or Operator directive). Never compose a fresh description at sync time.
 - Coverage: before delivery, verify the message spans every file in the sync; a message fitting a proper subset of the diff is a defect.
+
+## §P10-CONTEXT-BLOCKS
+
+To extend LLM context, the Operator adds context blocks at his discretion:
+
+1. file-context
+2. block-context
+3. section-context
+4. paragraph-context
+5. thought-context
+
+The file-context block shall be present in every file under the header, and the LLM shall remind the Operator if this field is missing. The Operator adds the remaining kinds at his discretion.
