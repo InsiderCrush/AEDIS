@@ -8,9 +8,7 @@ file-context: This document is a dynamically mutable file. It functions as exter
 
 ## STATE WRITING LAW
 
-(meta: token economy of this file | prevents duplication, water, and changelog drift)
-
-Every entry shall be argued: non-derivable from corpus files and needed by a clean session. Duplicated, speculative, or completed-work content is a defect. Block 1 carries the dispatch table; Block 2 carries the next-session entry point only.
+This file is optimized for minimal context cost per session. Every entry shall be non-derivable from corpus files and necessary for a clean session. Duplicated, speculative, or completed-work content is a defect: it consumes context on every future load without returning operational value.
 
 ## BLOCK 1 — OPERATIONAL RELAY
 
@@ -38,9 +36,9 @@ New norm proposals route to ./aedis/agents/protocols/protocol-state.md via Opera
 | Commit message for repo sync| `./aedis/agents/protocols/protocol-state.md#§P9-SYNC-COMMENTS`|
 | Context blocks method, file-context duty| `./aedis/agents/protocols/protocol-state.md#§P10-CONTEXT-BLOCKS`|
 
-## BLOCK 2 — NEXT-SESSION ENTRY (volatile)
+## BLOCK 2 — NEXT-SESSION ENTRY
 
-(meta: clean-session entry point | upcoming work and explicit next step only | completed-work records forbidden)
+block-context: This block carries the recommended work vector for a new LLM session — advisory, not binding — together with the scope of documents to be read before starting work.
 
 Vector \[2026-10-18\]:
 
