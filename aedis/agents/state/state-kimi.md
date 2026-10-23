@@ -31,7 +31,7 @@ New norm proposals route to ./aedis/agents/protocols/protocol-state.md via Opera
 | Requirements syntax (ISO 29148), flat-text markdown hygiene| `./aedis/agents/protocols/protocol-state.md#§P4-CONDUCT`|
 | Context blocks method, file-context duty| `./aedis/agents/protocols/protocol-state.md#§P5-CONTEXT-BLOCKS`|
 | Anchor mismatch, sync drift detection, operator seal| `./aedis/agents/protocols/protocol-state.md#§P6-FAILSAFE`|
-| Harness diagnostics, debug opcode trigger| `./aedis/agents/protocols/protocol-state.md#§P7-DEBUG`|
+| Work modes, harness maintenance| `./aedis/agents/protocols/protocol-state.md#§P7-DEBUG`|
 | Collaborative brainstorming, concept design| `./aedis/agents/protocols/protocol-state.md#§P8-CO-ARCHITECT`|
 | Commit message for repo sync| `./aedis/agents/protocols/protocol-state.md#§P9-SYNC-COMMENTS`|
 

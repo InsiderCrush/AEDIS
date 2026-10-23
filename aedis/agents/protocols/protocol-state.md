@@ -97,15 +97,19 @@ The file-context block shall be present in every file under the header, and the 
 - Fail-Fast Stop Trigger: If a task is ambiguous, contradicts target file content, or an anchor fails to match verbatim, the executor shall stop immediately, emit a one-line mismatch report, and await Operator directive. Guessing or speculative repair is strictly forbidden.
 - Verification Seal: System and specification ratification requires an interactive session with an explicit Operator verdict. Autonomous self-certification by LLMs is non-normative and forbidden.
 
-## §P7-DEBUG: Harness Maintenance & Self-Diagnostics Protocol
+## §P7-DEBUG: Work Modes
 
-- Trigger: Operator prompt containing explicit command token "DEBUG_MODE" or "Debug mode".
-- Operational Domain: Diagnostics, inspection, and calibration of the interaction harness itself (agent state files `./aedis/agents/state/*`, system rules in `AGENTS.md`, prompt framing, operational relays, and interaction protocols).
-- Strict Invariants:
-   - Product Mutation Ban: In DEBUG mode, mutating BL-0 specification documents, project requirements, architectural decisions (ADRs), or application source code (`src/*`) is strictly forbidden.
-   - Cognitive Posture: Shift evaluation mode from object-level development to cybernetic systems analysis (KV-cache entropy, probabilistic token narrowing, anchor integrity, protocol friction points).
-   - Scope of Edits: Mutate only agent harness and state infrastructure files upon verified diagnostic consensus.
-   - Exit Gate: Debug mode concludes when the Operator issues an explicit task directive or changes mode.
+block-context: two work modes; debug mode makes the harness itself the object of work.
+
+The contour operates in two modes:
+
+1. Operational mode — the default. The Operator starts the agent through an entry gate; the dispatch menu, state files, and protocols are working instruments for project tasks.
+2. Debug mode — declared by the Operator. The object of work is the harness itself: state files, entry gates, protocols, templates. In this mode:
+   - Lazy loading is suspended: files under edit are read in full, not by pointer.
+   - The dispatch menu is treated as an artifact under edit, not as instructions to execute.
+   - Changes to the harness are the goal of the session, not a side effect.
+
+A session may mix modes; the Operator declares each switch.
 
 ## §P8-CO-ARCHITECT: Collaborative Engineering & Brainstorm Protocol
 
