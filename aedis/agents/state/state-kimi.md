@@ -1,7 +1,3 @@
-FILE_MUTATION: OPERATOR_ONLY
-SPDX-FileCopyrightText: 2026 InsiderCrush
-SPDX-License-Identifier: CC-BY-4.0
-
 ## Kimi Contour Memory State
 
 (meta: operational relay and next-session entry | lazy 1-hop dispatch | token-economy writing law | GitHub auditor & T1 author)
@@ -36,6 +32,7 @@ New norm proposals route to ./aedis/agents/protocols/protocol-state.md via Opera
 | Harness diagnostics, debug opcode trigger| `./aedis/agents/protocols/protocol-state.md#§P7-DEBUG`|
 | Collaborative brainstorming, concept design| `./aedis/agents/protocols/protocol-state.md#§P8-CO-ARCHITECT`|
 | Commit message for repo sync| `./aedis/agents/protocols/protocol-state.md#§P9-SYNC-COMMENTS`|
+| Context blocks method, file-context duty| `./aedis/agents/protocols/protocol-state.md#§P10-CONTEXT-BLOCKS`|
 
 ## BLOCK 2 — NEXT-SESSION ENTRY (volatile)
 
@@ -43,6 +40,7 @@ New norm proposals route to ./aedis/agents/protocols/protocol-state.md via Opera
 
 Vector \[2026-10-18\]:
 
+- Verify sync of this state restructure and the §P0 LICENSING.md address registration.
 - Full license audit: SPDX headers of all corpus files vs ./LICENSING.md table. Excluded per Operator: ADR-L0-\*, ost/, DEBT-L0-000001 (old license, pending disposition).
 - idea-intake queue TASK-001..TASK-006 per ./aedis/governance/idea-intake.md: folder system, FSM registry, FILE\_MUTATION+SPDX headers on all files, glossary terms, EARS translation of R0..R14, machine validation profile.
 - Right after sync: edit protocol §P3-HANDOVER per approved revision (remove sovereign-zone concept, write next-session entry only).
