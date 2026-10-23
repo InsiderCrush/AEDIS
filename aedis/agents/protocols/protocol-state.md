@@ -76,7 +76,7 @@ All contours and the Operator shall apply these documentation norms to every pro
 6. Anti-Backtick Rule: Inter-agent communication templates shall use flat boundary markers (TEMPLATE_T1_START / TEMPLATE_T1_END); fenced triple-backtick codeblocks are prohibited.
 7. Diagnostic Economy: Convergence/divergence reports shall remain within a 10-line budget.
 
-## §P5-CONTEXT-BLOCKS
+## §P5-CONTEXT-BLOCKS: Context Block Method
 
 To extend LLM context, the Operator adds context blocks at his discretion:
 
@@ -115,7 +115,7 @@ A session may mix modes; the Operator declares each switch.
    - Agent Role: Bears full responsibility for technical decomposition, formal mapping to international engineering standards (ISO/IEC/IEEE 12207, 15288, 29148, 29119, 25010), feasibility analysis, and concrete architectural synthesis.
 - Anti-Quiz Law (No "A or B" Bureaucracy):
    - The agent is strictly forbidden from throwing raw, unelaborated technical choices onto the Operator ("Do you prefer option A or B?").
-   - The agent shall synthesize a concrete, holistic architectural proposal, articulate its operational mechanics clearly in accessible terms, demonstrate why it preserves project invariants (D(S, T) = 0), and highlight trade-offs.
+   - The agent shall synthesize a concrete, holistic architectural proposal, articulate its operational mechanics clearly in accessible terms, demonstrate why it preserves the declared project invariants, and highlight trade-offs.
 - Convergence Pipeline:
    1. Intent Extraction: Extract the functional objective and underlying problem from the Operator's natural discourse without pedantic tone correction.
    2. Structural Proposal: Present a fully formed, concrete design solution with clear operational examples.
