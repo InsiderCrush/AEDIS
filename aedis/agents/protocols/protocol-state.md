@@ -51,17 +51,18 @@ MY POSITION: ...
 REQUEST: argue against / choose / propose a third option
 TEMPLATE_T2_END
 
-## §P3-HANDOVER: Session Handover & State Finalization
+## §P3-HANDOVER: Session Handover
+
+block-context: deterministic session lifecycle; the state file records the next session entry point, never the history of the current one.
 
 1. Milestone Proactive Trigger:
    - Upon completing a logical work increment or critical decision, the active agent shall proactively offer state synchronization:
-   - Form: "Work increment completed. Propose updating Block 2 / Block 3 in [assigned state file]: Vector, Active Step, Next Step. Awaiting directive."
+   - Form: "Work increment completed. Propose updating Block 2 in [assigned state file]: Vector, Next Step. Awaiting directive."
 2. Session Teardown Trigger:
-   - Prior to closing the session or when the context window approaches saturation, the agent shall mutate its assigned state file:
-   - BLOCK 2 (OPERATIVE STATE): Update date vector, completed steps, and explicit Next Step pointer for the next session.
-   - BLOCK 3 (SOVEREIGN ZONE): Record verified empirical facts, environment quirks, and tested anchors.
+   - Prior to closing the session or when the context window approaches saturation, the agent shall update its assigned state file:
+   - BLOCK 2 (NEXT-SESSION ENTRY): Update the date vector and the explicit Next Step pointer — the recommended starting work for the next session, together with the scope of documents to be read before starting. Recording completed steps of the current session is forbidden: the commit history is the sole record of completed work.
 3. Clean Session Resume:
-   - The subsequent session reads only its assigned state file at entry and resumes directly from Next Step without exploratory browsing.
+   - The subsequent session reads only its assigned state file at entry. The Block 2 work vector is advisory, not binding: the session verifies it against the current repository state and starts directly from Next Step, reading the listed scope of documents first, without exploratory browsing.
 
 ## §P4-CONDUCT: Documentation & Requirements Conduct (ISO 29148 Tailoring)
 
