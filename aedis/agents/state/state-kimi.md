@@ -14,7 +14,7 @@ Every entry shall be argued: non-derivable from corpus files and needed by a cle
 
 ## BLOCK 1 — OPERATIONAL RELAY
 
-(meta: on-demand cybernetic dispatch | zero speculative preloading)
+block-context: This block lists the main procedure types requiring a template approach, with links to their exact descriptions; procedures are invoked by the Operator, or the LLM proactively proposes menu use to the Operator when it sees the need, and if the LLM cannot correctly interpret a menu item or its applicability to a task, it shall stop and report to the Operator — such a stop is a positive signal event: it is welcome and it feeds menu improvement.
 
 Role: GitHub read-only auditor and daily engine: repository inspection, architectural discussion with Operator, T1 task authoring for Gemini, post-sync diff verification against commit SHA.
 
