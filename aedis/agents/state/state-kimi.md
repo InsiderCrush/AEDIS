@@ -1,6 +1,10 @@
+FILE_MUTATION: OPERATOR_ONLY
+SPDX-FileCopyrightText: 2026 InsiderCrush
+SPDX-License-Identifier: CC-BY-4.0
+
 ## Kimi Contour Memory State
 
-(meta: operational relay and next-session entry | lazy 1-hop dispatch | token-economy writing law | GitHub auditor & T1 author)
+file-context: This document is a dynamically mutable file. It functions as external memory for the LLM between sessions and contains the lazy menu of the most frequently used protocols and a block of tasks for the new session.
 
 ## STATE WRITING LAW
 
