@@ -6,15 +6,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 (meta: operational relay and next-session entry | lazy 1-hop dispatch | token-economy writing law | GitHub auditor & T1 author)
 
-## LOCKS
-
-- **BLOCK1\_RELAY\_LOCK=1**: WRITE\_BLOCK1=OPERATOR\_DIRECT\_CMD\_ONLY \| AUTONOMOUS\_MUTATION=FORBIDDEN \| LEVEL=CRITICAL
-- **BLOCK2\_STATE\_LOCK=1**: MUTATE=OPERATOR\_CMD\_ONLY \| EXECUTOR=GEMINI \| CONTENT=UPCOMING\_WORK\_AND\_SCOPE
-- **CONTOUR\_BOUNDARY\_LOCK=1**: GITHUB=READ\_ONLY\_INSPECTOR\_MOTOR \| WORKSPACE\_MUTATOR=GEMINI\_ONLY
-
-version: 2.1.0
-chain: genesis
-
 ## STATE WRITING LAW
 
 (meta: token economy of this file | prevents duplication, water, and changelog drift)
@@ -52,6 +43,6 @@ New norm proposals route to ./aedis/agents/protocols/protocol-state.md via Opera
 
 Vector \[2026-10-18\]:
 
-- Verify sync of this state restructure and the §P0 LICENSING.md address registration.
 - Full license audit: SPDX headers of all corpus files vs ./LICENSING.md table. Excluded per Operator: ADR-L0-\*, ost/, DEBT-L0-000001 (old license, pending disposition).
 - idea-intake queue TASK-001..TASK-006 per ./aedis/governance/idea-intake.md: folder system, FSM registry, FILE\_MUTATION+SPDX headers on all files, glossary terms, EARS translation of R0..R14, machine validation profile.
+- Right after sync: edit protocol §P3-HANDOVER per approved revision (remove sovereign-zone concept, write next-session entry only).
