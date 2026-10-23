@@ -39,9 +39,9 @@ New norm proposals route to ./aedis/agents/protocols/protocol-state.md via Opera
 
 block-context: This block carries the recommended work vector for a new LLM session — advisory, not binding — together with the scope of documents to be read before starting work.
 
-Vector \[2026-10-18\]:
+Vector \[2026-10-23\]:
 
-- Verify sync of this state restructure and the §P0 LICENSING.md address registration.
 - Full license audit: SPDX headers of all corpus files vs ./LICENSING.md table. Excluded per Operator: ADR-L0-\*, ost/, DEBT-L0-000001 (old license, pending disposition).
 - idea-intake queue TASK-001..TASK-006 per ./aedis/governance/idea-intake.md: folder system, FSM registry, FILE\_MUTATION+SPDX headers on all files, glossary terms, EARS translation of R0..R14, machine validation profile.
-- Right after sync: edit protocol §P3-HANDOVER per approved revision (remove sovereign-zone concept, write next-session entry only).
+- Next Step: verify whether AGENTS.md exists in the repository — §P7-DEBUG references it as the carrier of system rules.
+- Read before starting: ./aedis/governance/idea-intake.md and ./LICENSING.md
