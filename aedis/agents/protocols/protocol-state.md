@@ -64,21 +64,17 @@ block-context: deterministic session lifecycle; the state file records the next 
 3. Clean Session Resume:
    - The subsequent session reads only its assigned state file at entry. The Block 2 work vector is advisory, not binding: the session verifies it against the current repository state and starts directly from Next Step, reading the listed scope of documents first, without exploratory browsing.
 
-## §P4-CONDUCT: Documentation & Requirements Conduct (ISO 29148 Tailoring)
+## §P4-CONDUCT: Documentation & Requirements Conduct
 
-- Language Barrier: Russian exclusively in Operator dialogue; technical English strictly in all workspace files, specifications, and code.
-- Carrier Language & Representation Profile: All workspace specifications, manifests, and contour artifacts shall strictly conform to CommonMark v0.31 (Strict AEDIS Profile) specified in `AEDIS-PROT-HARNESS-001`. Emitting prohibited AST constructs (raw HTML, covert comment tags, decorative styling) is a fatal compliance defect. External environments shall consume artifacts via deterministic AST translation adapters ($D(S,T)=0$).
-- Linguistic Hygiene: The modal verb "shall" exclusively for normative statements; no subjective adjectives, ambiguous adverbs, or anthropomorphic metaphors.
-- Requirement Rigor (ISO/IEC/IEEE 29148):
-   - Requirements shall be necessary, singular, unambiguous, complete, consistent, and verifiable.
-   - Mandatory requirement structure:
-     [Condition/Trigger] + [Subject] + SHALL + [Action/Constraint] + | Verification: [target test or oracle]
-- Defect Prevention: Zero tolerance for unbound error codes, vague quantifiers, ego references, escape hatches, and solution-bias bleed.
-- Markdown Hygiene (Anti-Backtick Rule):
-   - Fenced triple backticks are strictly forbidden in inter-agent task templates, prompts, and embedded fragments.
-   - Payloads shall use flat boundary markers (TEMPLATE_*_START / TEMPLATE_*_END) or standard indents.
-   - Rationale: Nested code blocks break markdown renderers and truncate text across web and clipboard boundaries.
-- Diagnostic Economy: Diagnostics output shall be formatted as a single-screen payload (<= 10 lines).
+All contours and the Operator shall apply these documentation norms to every project document, including state files.
+
+1. Language Barrier: The Operator-agent dialogue is conducted in Russian; all workspace files are written in technical English. Cross-language contamination is prohibited.
+2. Carrier Language & Representation Profile: All workspace specifications, manifests, and contour artifacts shall strictly conform to CommonMark v0.31 (Strict AEDIS Profile) specified in ./aedis/agents/protocols/protocol-llm-harness-format.md.
+3. Linguistic Hygiene: Use shall exclusively for normative requirements; may for permissions; should for recommendations. Subjective adjectives and ambiguous adverbs (very, generally, typically, effectively) are prohibited in normative text.
+4. Requirements Structure (ISO 29148): Every normative requirement shall explicitly declare condition, subject, modal verb, object, and verification method.
+5. Defect Prevention: Structural, naming, or behavioral deviations between documents shall be treated as defects and resolved through T1/T2 template corrections, not conversational patches.
+6. Anti-Backtick Rule: Inter-agent communication templates shall use flat boundary markers (TEMPLATE_T1_START / TEMPLATE_T1_END); fenced triple-backtick codeblocks are prohibited.
+7. Diagnostic Economy: Convergence/divergence reports shall remain within a 10-line budget.
 
 ## §P5-CONTEXT-BLOCKS
 
