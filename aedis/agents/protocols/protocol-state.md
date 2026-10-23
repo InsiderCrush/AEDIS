@@ -124,11 +124,10 @@ A session may mix modes; the Operator declares each switch.
 
 ## §P9-SYNC-COMMENTS: Sync Commit Message Discipline
 
-- Format: type(scope): short lowercase imperative, no trailing period. Match live repo history: docs(governance), docs(meta), docs(state), docs(adr), docs(license), feat(governance). Reuse an existing scope; invent a new one only when no scope fits.
+- Format: type(scope): short lowercase imperative, no trailing period. Match live repo history: docs(governance), docs(state), docs(adr), docs(license), feat(governance). Reuse an existing scope; invent a new one only when no scope fits.
 - Content: name the work as a whole in a few words. Do not enumerate files, do not narrate the mechanism; "relocate X from Y to Z" is bloat.
 - Operator phrasing is intent, not literal text: extract the essence, express it in standard English commit idiom. Word-for-word translation of the Operator's Russian wording is a defect.
 - Uncertainty: search real-world commit examples first. Do not improvise variant lists, do not present A/B menus, do not ask style questions.
 - Delivery: one message line, nothing else, unless the Operator asks for alternatives.
 - Derivation: the message is a compression of the sync's approved work statement (T1 TASK subject or Operator directive). Never compose a fresh description at sync time.
 - Coverage: before delivery, verify the message spans every file in the sync; a message fitting a proper subset of the diff is a defect.
-
