@@ -80,16 +80,17 @@ block-context: deterministic session lifecycle; the state file records the next 
    - Rationale: Nested code blocks break markdown renderers and truncate text across web and clipboard boundaries.
 - Diagnostic Economy: Diagnostics output shall be formatted as a single-screen payload (<= 10 lines).
 
-## §P5-META: Teleological Meta-Anchoring Protocol
+## §P5-CONTEXT-BLOCKS
 
-- Principle (Why vs What): Imperative rules define literal constraints ("WHAT"); teleological meta-anchors define the optimization objective and underlying invariant ("WHY").
-- Steering Mechanism: In edge cases, ambiguities, or rule collisions, attention mechanisms steer generation via the meta-invariant, suppressing pretrain default drift (e.g. speculative repair or helpful hallucination).
-- Canonical Syntax Template:
-  (meta: <core invariant> | <primary failure mode prevented> | <scope boundary>)
-- Quality Norms:
-   - Density: Strictly one atomic line directly below the section header.
-   - Phrasing: High-density causal noun phrases; zero conversational filler, zero prose repetition of child rules.
-   - Teleology: Defines the purpose and loss vector of the block; child rules define the operational procedure.
+To extend LLM context, the Operator adds context blocks at his discretion:
+
+1. file-context
+2. block-context
+3. section-context
+4. paragraph-context
+5. thought-context
+
+The file-context block shall be present in every file under the header, and the LLM shall remind the Operator if this field is missing. The Operator adds the remaining kinds at his discretion.
 
 ## §P6-FAILSAFE: Stop & Seal Protocols
 
@@ -131,14 +132,3 @@ block-context: deterministic session lifecycle; the state file records the next 
 - Derivation: the message is a compression of the sync's approved work statement (T1 TASK subject or Operator directive). Never compose a fresh description at sync time.
 - Coverage: before delivery, verify the message spans every file in the sync; a message fitting a proper subset of the diff is a defect.
 
-## §P10-CONTEXT-BLOCKS
-
-To extend LLM context, the Operator adds context blocks at his discretion:
-
-1. file-context
-2. block-context
-3. section-context
-4. paragraph-context
-5. thought-context
-
-The file-context block shall be present in every file under the header, and the LLM shall remind the Operator if this field is missing. The Operator adds the remaining kinds at his discretion.

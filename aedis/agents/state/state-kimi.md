@@ -29,12 +29,12 @@ New norm proposals route to ./aedis/agents/protocols/protocol-state.md via Opera
 | Peer architectural debate briefings with Gemini| `./aedis/agents/protocols/protocol-state.md#§P2-DEBATE-T2`|
 | Session handover & teardown| `./aedis/agents/protocols/protocol-state.md#§P3-HANDOVER`|
 | Requirements syntax (ISO 29148), flat-text markdown hygiene| `./aedis/agents/protocols/protocol-state.md#§P4-CONDUCT`|
-| Teleological intent grounding, meta-anchors| `./aedis/agents/protocols/protocol-state.md#§P5-META`|
-| Anchor mismatch, sync drift detection, operator seal| `./aedis/agents/protocols/protocol-state.md#§P6-FAILSAFE`|
-| Harness diagnostics, debug opcode trigger| `./aedis/agents/protocols/protocol-state.md#§P7-DEBUG`|
-| Collaborative brainstorming, concept design| `./aedis/agents/protocols/protocol-state.md#§P8-CO-ARCHITECT`|
-| Commit message for repo sync| `./aedis/agents/protocols/protocol-state.md#§P9-SYNC-COMMENTS`|
-| Context blocks method, file-context duty| `./aedis/agents/protocols/protocol-state.md#§P10-CONTEXT-BLOCKS`|
+| Context blocks method, file-context duty| `./aedis/agents/protocols/protocol-state.md#§P5-CONTEXT-BLOCKS`|
+| Teleological intent grounding, meta-anchors| `./aedis/agents/protocols/protocol-state.md#§P6-META`|
+| Anchor mismatch, sync drift detection, operator seal| `./aedis/agents/protocols/protocol-state.md#§P7-FAILSAFE`|
+| Harness diagnostics, debug opcode trigger| `./aedis/agents/protocols/protocol-state.md#§P8-DEBUG`|
+| Collaborative brainstorming, concept design| `./aedis/agents/protocols/protocol-state.md#§P9-CO-ARCHITECT`|
+| Commit message for repo sync| `./aedis/agents/protocols/protocol-state.md#§P10-SYNC-COMMENTS`|
 
 ## BLOCK 2 — NEXT-SESSION ENTRY
 
