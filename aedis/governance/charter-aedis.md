@@ -1,19 +1,8 @@
 FILE_MUTATION: OPERATOR_ONLY
-<!-- SPDX-FileCopyrightText: 2026 InsiderCrush -->
-<!-- SPDX-License-Identifier: CC-BY-NC-4.0 -->
+SPDX-FileCopyrightText: 2026 InsiderCrush
+SPDX-License-Identifier: CC-BY-4.0
 
 # Project Charter AEDIS
-
-## DOCUMENT CONTROL
-- **Document ID:** AEDIS-CHARTER-001
-- **Document Type (ISO 15289):** Project Charter / System Constitution
-- **Issuing Authority:** Operator (Sole Decision-Making Authority)
-- **Applicability:** All Contours (Operator, Gemini, Kimi)
-- **Notation & Encoding:** CommonMark v0.31 (Strict AEDIS Profile, Zero-HTML) | UTF-8 (No BOM)
-- **Lifecycle Status:** Baseline 0 (Active Standard)
-
-## CHARTER LOCKS
-- **CHARTER_MUTATION_LOCK=1**: WRITE_CHARTER=OPERATOR_DIRECT_CMD_ONLY | AUTONOMOUS_MUTATION=FORBIDDEN | LEVEL=CRITICAL
 
 ## LLM ROLE ASSIGNMENT
 

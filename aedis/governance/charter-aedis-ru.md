@@ -1,6 +1,6 @@
 FILE_MUTATION: OPERATOR_ONLY
-<!-- SPDX-FileCopyrightText: 2026 InsiderCrush -->
-<!-- SPDX-License-Identifier: CC-BY-NC-4.0 -->
+SPDX-FileCopyrightText: 2026 InsiderCrush
+SPDX-License-Identifier: CC-BY-4.0
 
 # Устав проекта AEDIS
 
